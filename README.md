@@ -8,7 +8,7 @@ If you don't want to use `--network=host`, you have to change docker setup `--en
 - `docker`: docker container on remote server
 
 ## 1. Setup ssh forwarding config
----
+
 
 ### Install x11 on remote server
 
@@ -27,7 +27,7 @@ X11UseLocalhost no
 ```
 
 ## 2. Build & Run docker
----
+
 ### Simple file
 ```bash
 (host)$ bash build_docker.sh
@@ -49,7 +49,7 @@ X11UseLocalhost no
 ```
 
 ## 3. Test OpenGL on remote PC
----
+
 ```bash
 (docker)$ glxgears
 ```

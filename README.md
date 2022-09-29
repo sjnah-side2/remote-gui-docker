@@ -28,25 +28,14 @@ X11UseLocalhost no
 
 ## 2. Build & Run docker
 
-### Simple file
-```bash
-(host)$ bash build_docker.sh
+You can build image with `build_docker.sh` bash script.
+And `run_docker_auto.sh` will run container automatically whether local access, remote access or attach.
 
-# on host server
-(host)$ bash run_docker_local.sh
-
-# on remote pc
-(host)$ bash run_docker_remote.sh
-
-# if already running
-(host)$ bash attach_docker.sh
-```
-
-### Auto file
 ```bash
 (host)$ bash build_docker.sh
 (host)$ bash run_docker_auto.sh
 ```
+
 
 ## 3. Test OpenGL on remote PC
 
